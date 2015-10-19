@@ -11,3 +11,22 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+
+
+alias ql='qlmanage -p 2>/dev/null'
+alias pywebsrv='python -m SimpleHTTPServer'
+alias se='. ~/.env'
+
+#export GOROOT="/usr/local/Cellar/go/1.4.2"
+#export GOPATH="$HOME/projects/go"
+
+#PATH=$PATH:./node_modules/.bin:$HOME/node_modules/.bin
+#PATH=$PATH:$GOPATH/bin
+#PATH=$PATH:/usr/bin:/bin:/usr/sbin:/sbin
+#PATH=$PATH:/usr/local/share/python
+
+#export PATH
+
+
+eval "$(rbenv init -)"
+eval "$(ndenv init -)"
