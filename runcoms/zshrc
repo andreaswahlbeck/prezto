@@ -16,6 +16,7 @@ fi
 alias ql='qlmanage -p 2>/dev/null'
 alias pywebsrv='python -m SimpleHTTPServer'
 alias se='. ~/.env'
+alias gst='git status'
 
 #export GOROOT="/usr/local/Cellar/go/1.4.2"
 #export GOPATH="$HOME/projects/go"
