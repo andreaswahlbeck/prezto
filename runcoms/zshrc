@@ -30,5 +30,6 @@ PATH=$HOME/.ndenv/bin:$PATH
 export PATH
 
 
-eval "$(rbenv init -)"
+# done in ruby module
+#eval "$(rbenv init -)"
 eval "$(ndenv init -)"
