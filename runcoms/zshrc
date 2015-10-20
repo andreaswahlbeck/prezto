@@ -20,12 +20,13 @@ alias se='. ~/.env'
 #export GOROOT="/usr/local/Cellar/go/1.4.2"
 #export GOPATH="$HOME/projects/go"
 
+PATH=$HOME/.ndenv/bin:$PATH
 #PATH=$PATH:./node_modules/.bin:$HOME/node_modules/.bin
 #PATH=$PATH:$GOPATH/bin
 #PATH=$PATH:/usr/bin:/bin:/usr/sbin:/sbin
 #PATH=$PATH:/usr/local/share/python
 
-#export PATH
+export PATH
 
 
 eval "$(rbenv init -)"
